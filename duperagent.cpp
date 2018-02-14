@@ -205,13 +205,13 @@ static void registerTypes()
     qmlRegisterSingletonType<Request>(
         DUPERAGENT_URI,
         1, 0,
-        "request",
+        "Request",
         request_provider);
 
     qmlRegisterSingletonType<PromiseModule>(
         DUPERAGENT_URI,
         1, 0,
-        "promise",
+        "Promise",
         promise_provider);
 
     qmlRegisterSingletonType<NetworkActivityIndicator>(
